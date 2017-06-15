@@ -1,0 +1,89 @@
+header {
+   background-image: url(images/stardust.png);
+   height: 10%;
+   background-size: cover;
+   margin: 0;
+ }
+body {
+  background-image: url(images/foggy_birds.png);
+  height: 100vh;
+  background-repeat: repeat;
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+nav {
+background: #00a087;
+position: fixed;
+top: 0;
+left: 0;
+padding-left: 10px;
+width: 100%;
+}
+h2 {
+  margin: 5px;
+}
+.headline1 {
+
+  margin-top: 100px;
+}
+.main {
+  width: 50%;
+  background: white;
+  background-repeat: repeat;
+  margin: auto;
+  padding: 20px;
+}
+.headline {
+  font-style: bold;
+  width: 60%;
+  margin: 0 0 0 0;
+}
+.headlinewidth {
+  margin: auto;
+  width: 60%;
+  text-align: justify;
+
+  padding: 0;
+}
+
+.content1{
+  width: 100%;
+  margin:auto;
+
+}
+.image {
+
+  width: 60%;
+  margin: auto;
+
+}
+.inimage {
+  border-bottom: 3px ridge black;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 9%;
+  margin-right: 9%;
+  opacity: 0.8;
+}
+.text {
+  font-family: 'Rubik', sans-serif;
+  margin: auto;
+  width: 100%;
+  background: white;
+  columns: 200px 2;
+  text-align: justify;
+  padding-bottom: 20px;
+  text-indent: 20px;
+  border-bottom: 2px solid black;
+}
+p {
+  margin: 0;
+}
+.navimage {
+}
+
+}
+.panel {
+position:  absolute;
+
+}
