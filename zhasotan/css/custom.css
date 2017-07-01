@@ -21,6 +21,10 @@ a:hover {
 
 }
 
+.active {
+background-color: #edcf2e;
+}
+
 .otan {
     color: #002456;
     display: inline;

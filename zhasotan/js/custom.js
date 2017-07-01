@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+
+  $("li").on("click", function () {
+    $("li").removeClass("active");
+    $(this).addClass("active");
+  });
 /**
  * This object controls the nav bar. Implement the add and remove
  * action over the elements of the nav bar that we want to change.
