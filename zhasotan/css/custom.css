@@ -10,20 +10,28 @@ body {
 footer {
     padding: 30px 0;
 }
-.otan {
-  color: #002456;
-  display: inline;
-  background-color: #edcf2e;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-/*
- * Custom styles
- */
+.otan {
+    color: #002456;
+    display: inline;
+    background-color: #edcf2e;
+}
+
+.sr-only {
+  background-color: blue;
+}
+
 .navbar-brand {
+    padding-left: 50px;
     font-weight: bolder;
     font-family: 'Oranienbaum', serif;
-    ccolor: #002456;
+    color: #002456;
     font-size: 64px;
+
 }
 
 .navbar-container {
@@ -55,10 +63,23 @@ footer {
     -webkit-transition:  0.8s;
 }
 
-.nav {
+.navbar-collapse {
+  font-family: 'Oranienbaum', serif;
   color: black;
+  background-color: #64b9ee;
+  text-align: center;
+  padding-left: 20px;
 }
 
+.collapse {
+  color: black;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.navbar-nav {
+  color: black;
+}
 /*End Navigation*/
 
 /*footer*/
