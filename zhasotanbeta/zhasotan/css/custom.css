@@ -4,6 +4,7 @@ body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 body {
+    background-image: url(..images/vintage-leaves.png);
     padding-top: 100px;
 }
 footer {
@@ -14,6 +15,7 @@ footer {
  * Custom styles
  */
 .navbar-brand {
+    color: black;
     font-size: 24px;
 }
 
@@ -22,7 +24,7 @@ footer {
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
-    background-color: #222;
+    background-color: #15224f;
     border-color: #080808;
     box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
@@ -216,6 +218,3 @@ footer {
 	#myCarousel .list-group {display:none;}
 }
 /*END NEWS*/
-.social-icons {
-  background-color: yellow;
-}
