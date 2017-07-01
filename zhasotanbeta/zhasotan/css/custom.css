@@ -48,13 +48,14 @@ footer {
 
 /*footer*/
 .footer1 {
-    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+  background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
 	padding-top: 40px;
 	padding-right: 0;
 	padding-bottom: 20px;
 	padding-left: 0;/*	border-top-width: 4px;
 	border-top-style: solid;
 	border-top-color: #003;*/
+  width: 100%;
 }
 
 
@@ -184,7 +185,7 @@ footer {
 
 /*news*/
 #myCarousel .carousel-caption {
-    left:0;
+  left:0;
 	right:0;
 	bottom:0;
 	text-align:left;
@@ -215,3 +216,6 @@ footer {
 	#myCarousel .list-group {display:none;}
 }
 /*END NEWS*/
+.social-icons {
+  background-color: yellow;
+}
