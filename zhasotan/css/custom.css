@@ -72,11 +72,10 @@ a:hover {
 }
 
 .navbar-collapse {
-
   font-family: 'Oranienbaum', serif;
   font-size: 24px;
   color: black;
-  text-align: center;
+  text-align: left;
   padding-left: 20px;
 }
 
@@ -87,7 +86,7 @@ a:hover {
 .collapse {
 
   color: black;
-  text-align: center;
+  text-align: left;
   padding-left: 50px;
 }
 
