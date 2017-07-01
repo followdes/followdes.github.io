@@ -10,19 +10,21 @@ body {
 footer {
     padding: 30px 0;
 }
+
 a {
-  color: white;
   text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+
 }
 
 .otan {
     color: #002456;
     display: inline;
     background-color: #edcf2e;
-}
-
-.sr-only {
-  background-color: blue;
 }
 
 .navbar-brand {
@@ -32,6 +34,12 @@ a {
     color: #002456;
     font-size: 64px;
 
+
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #edcf2e;
+  text-decoration: none;
 }
 
 .navbar-container {
@@ -64,17 +72,23 @@ a {
 }
 
 .navbar-collapse {
+
   font-family: 'Oranienbaum', serif;
+  font-size: 24px;
   color: black;
-  background-color: #64b9ee;
   text-align: center;
   padding-left: 20px;
 }
 
+.navbar-collapse.collapse.in{
+  background-color: #64b9ee;
+}
+
 .collapse {
+
   color: black;
   text-align: center;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .navbar-nav {
@@ -84,6 +98,7 @@ a {
 
 /*footer*/
 .footer1 {
+  background-color: #64b9ee;
   background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
 	padding-top: 40px;
 	padding-right: 0;
@@ -198,7 +213,7 @@ a {
       }
 
 .footer-bottom {
-    background-color: #15224f;
+    background-color: #64b9ee;
     min-height: 30px;
     width: 100%;
 }
@@ -240,7 +255,7 @@ a {
 	cursor:pointer;
 }
 #myCarousel .list-group .active {
-	background-color:#eee;
+	background-color: #edcf2e;
 }
 
 @media (min-width: 992px) {
