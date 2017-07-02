@@ -101,6 +101,8 @@ $('#myCarousel').carousel({
   clickEvent = false;
 });
 
+
+
 });
 
 $(window).load(function() {
